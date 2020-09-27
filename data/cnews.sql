@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th7 25, 2020 lúc 06:10 AM
+-- Thời gian đã tạo: Th9 27, 2020 lúc 03:18 PM
 -- Phiên bản máy phục vụ: 10.1.32-MariaDB
 -- Phiên bản PHP: 7.2.5
 
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Cơ sở dữ liệu: `tintuc`
+-- Cơ sở dữ liệu: `cnews`
 --
 
 -- --------------------------------------------------------
@@ -38,7 +38,7 @@ CREATE TABLE `danhmuctin` (
 --
 
 INSERT INTO `danhmuctin` (`ID_DanhMucTin`, `TenDanhMucTin`) VALUES
-(1, 'Toàn cảnh nhật Bản'),
+(1, 'Toàn cảnh Nhật Bản'),
 (2, 'Tin tức Việt Nhật'),
 (3, 'Tin tức giải trí'),
 (4, 'Du học Nhật Bản'),
@@ -65,7 +65,7 @@ CREATE TABLE `tintuc` (
 --
 
 INSERT INTO `tintuc` (`ID_TinTuc`, `TenTinTuc`, `MoTa`, `HinhAnh`, `ChiTiet`, `NgayDang`, `ID_DanhMucTin`) VALUES
-(1, 'Thị trấn truyền thống Uchiko – Nhật Bản', 'Thị trấn truyền thống của Uchiko được bao quanh bởi vẻ đẹp tự nhiên', 'hinh1.jpg', '', '0000-00-00 00:00:00', 1),
+(1, 'Thị trấn truyền thống Uchiko – Nhật bản', 'Thị trấn truyền thống của Uchiko được bao quanh bởi vẻ đẹp tự nhiên', 'hinh1.jpg', '', '0000-00-00 00:00:00', 1),
 (2, 'Đền thiêng Sefa Utaki ở Okinawa', 'Sefa Utaki nằm ở phía đông nam của đảo Okinawa Honto', 'hinh2.jpg', NULL, NULL, 1),
 (3, 'Cây cầu lớn Seto Naikai', 'Người ta có thể đáp xe lửa nhanh chóng', 'hinh3.jpg', NULL, NULL, 2),
 (4, 'Những bảo tàng có một không hai ở Nhật Bản', 'Bảo tàng thuốc lá và muối hay bảo tàng Takoyaki chỉ là hai trong', 'hinh4.jpg', 'Trước đó, Tổng công ty này đã được Bộ Công an thông báo về việc gia tăng các hoạt động cướp biển ở khu vực Đông Nam Á thời gian qua. Cơ quan này lưu ý đã có sự gia tăng cả về số lượng lẫn tính chất các vụ việc liên quan đếncướp biển trong khu vực ASEAN. Cụ thể, trong 6 tháng đầu năm trong khu vực đã có 8 vụ cướp biển nhắm vào các tàu chở dầu, tăng 3 vụ so với cùng kỳ 2013.Trước đó, Tổng công ty này đã được Bộ Công an thông báo về việc gia tăng các hoạt động cướp biển ở khu vực Đông Nam Á thời gian qua. Cơ quan này lưu ý đã có sự gia tăng cả về số lượng lẫn tính chất các vụ việc liên quan đếncướp biển trong khu vực ASEAN. Cụ thể, trong 6 tháng đầu năm trong khu vực đã có 8 vụ cướp biển nhắm vào các tàu chở dầu, tăng 3 vụ so với cùng kỳ 2013.Trước đó, Tổng công ty này đã được Bộ Công an thông báo về việc gia tăng các hoạt động cướp biển ở khu vực Đông Nam Á thời gian qua. Cơ quan này lưu ý đã có sự gia tăng cả về số lượng lẫn tính chất các vụ việc liên quan đếncướp biển trong khu vực ASEAN. Cụ thể, trong 6 tháng đầu năm trong khu vực đã có 8 vụ cướp biển nhắm vào các tàu chở dầu, tăng 3 vụ so với cùng kỳ 2013.', NULL, 3),
