@@ -8,8 +8,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import model.bean.News;
-import model.dao.NewsDao;
+import bean.News;
+import dao.NewsDao;
 
 public class PublicIndexController extends HttpServlet {
 	private static final long serialVersionUID = 1L;

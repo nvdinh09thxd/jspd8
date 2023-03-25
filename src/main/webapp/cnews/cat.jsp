@@ -1,4 +1,4 @@
-<%@page import="model.bean.News"%>
+<%@page import="bean.News"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     

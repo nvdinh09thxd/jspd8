@@ -1,4 +1,4 @@
-package model.dao;
+package dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 
-import model.bean.News;
+import bean.News;
 import util.JDBCConnectionUtil;
 
 public class NewsDao {

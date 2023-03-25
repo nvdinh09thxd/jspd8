@@ -1,4 +1,4 @@
-package model.dao;
+package dao;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -6,7 +6,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 
-import model.bean.Category;
+import bean.Category;
 import util.JDBCConnectionUtil;
 
 public class CatDao {
